@@ -179,10 +179,12 @@
   <ItemGroup>
     <ClCompile Include="src\Snake.cpp" />
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Vector2D.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\include\Sdl_Include.h" />
+    <ClInclude Include="src\include\LibInclude.h" />
     <ClInclude Include="src\include\Snake.h" />
+    <ClInclude Include="src\include\Vector2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

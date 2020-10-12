@@ -1,7 +1,4 @@
-#include <iostream>
-#define SDL_MAIN_HANDLED
-#include <SDL.h>
-
+#include "include\LibInclude.h"
 #include "include\Snake.h"
 
 constexpr auto SCREEN_WIDTH = 300;
@@ -14,12 +11,6 @@ SDL_Renderer* renderer;
 
 int createWindow();
 
-struct Vector2D
-{
-	int x;
-	int y;
-
-};
 
 struct Food
 {

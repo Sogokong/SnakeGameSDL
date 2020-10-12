@@ -1,9 +1,10 @@
 #pragma once
-#include "Sdl_Include.h"
+#include "LibInclude.h"
+#include "include\Vector2D.h"
+
 class Snake
 {
-	int x = 0;
-	int y = 0;
+	Vector2D* body = (Vector2D*)malloc(sizeof(Vector2D) * 5);
 	int scale;
 
 public:

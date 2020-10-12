@@ -21,12 +21,18 @@
     <ClCompile Include="src\Snake.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\include\Snake.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\include\Sdl_Include.h">
+    <ClInclude Include="src\include\Vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\LibInclude.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
